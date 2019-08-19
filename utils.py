@@ -13,7 +13,7 @@ def input_coords(prompt):
             return coords
         except Exception:
             # ignore error and try again
-            print("Input was invalid!")
+            print("Input was invalid! Please try again. (e.g.: \"1, 3\")")
 
 
 def new_field():
