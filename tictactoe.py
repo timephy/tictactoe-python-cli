@@ -42,7 +42,6 @@ class TicTacToe:
             if winner:
                 winner.score += 1
             # print scores
-            # print("# Scores:")
             for player in players:
                 print(f"{player}: {player.score} / {wins} wins")
             print()  # newline to seperate rounds
@@ -118,4 +117,4 @@ player2 = Player("Player 2", "X")
 players = [player1, player2]
 
 # ttt = TicTacToe(players)
-TicTacToe.play_set(players)
+TicTacToe.play_round(players)
